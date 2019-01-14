@@ -15,6 +15,8 @@
 		9F8E825621ECFCA200D35B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E825521ECFCA200D35B79 /* main.m */; };
 		9F8E826021ECFCA200D35B79 /* MVC101Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E825F21ECFCA200D35B79 /* MVC101Tests.m */; };
 		9F8E826B21ECFCA200D35B79 /* MVC101UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E826A21ECFCA200D35B79 /* MVC101UITests.m */; };
+		9F8E827A21ED021600D35B79 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E827921ED021600D35B79 /* Artist.m */; };
+		9F8E827D21ED035700D35B79 /* ArtistFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E827C21ED035700D35B79 /* ArtistFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9F8E826621ECFCA200D35B79 /* MVC101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVC101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8E826A21ECFCA200D35B79 /* MVC101UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVC101UITests.m; sourceTree = "<group>"; };
 		9F8E826C21ECFCA200D35B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8E827821ED021600D35B79 /* Artist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		9F8E827921ED021600D35B79 /* Artist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		9F8E827B21ED035700D35B79 /* ArtistFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistFactory.h; sourceTree = "<group>"; };
+		9F8E827C21ED035700D35B79 /* ArtistFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				9F8E824621ECFC9F00D35B79 /* AppDelegate.h */,
+				9F8E827821ED021600D35B79 /* Artist.h */,
+				9F8E827B21ED035700D35B79 /* ArtistFactory.h */,
+				9F8E827C21ED035700D35B79 /* ArtistFactory.m */,
+				9F8E827921ED021600D35B79 /* Artist.m */,
 				9F8E824721ECFC9F00D35B79 /* AppDelegate.m */,
 				9F8E824921ECFC9F00D35B79 /* ViewController.h */,
 				9F8E824A21ECFC9F00D35B79 /* ViewController.m */,
@@ -264,7 +274,9 @@
 			files = (
 				9F8E824B21ECFC9F00D35B79 /* ViewController.m in Sources */,
 				9F8E825621ECFCA200D35B79 /* main.m in Sources */,
+				9F8E827D21ED035700D35B79 /* ArtistFactory.m in Sources */,
 				9F8E824821ECFC9F00D35B79 /* AppDelegate.m in Sources */,
+				9F8E827A21ED021600D35B79 /* Artist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
